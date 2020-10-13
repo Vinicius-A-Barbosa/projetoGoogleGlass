@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Tudo Sobre Google Glass</title>
+	<link rel="stylesheet" href="styleG/estilo.css"/>
+	<link rel="stylesheet" href="styleG/specs.css"/>
+</head>
+<script language="javascript" src="jscriptG/funcoes.js"></script>
+<body>
+<div id="interface">
+	<header id="cabecalho">
+	<hgroup>
+	<h1>Google Glass</h1>
+	<h2>A revolução do Google está chegando</h2>
+	</hgroup>
+	<img id="icone" src="imageG/glass-oculos-preto-peq.png"/>
+<nav id="menu">
+	<h1>Menu Principal</h1>
+	<ul type="disc">
+		<li onmouseover="mudaFoto('imageG/home.png')" onmouseout="mudaFoto('imageG/especificacoes.png')"><a href="index.html">Home</a></li>
+		<li onmouseover="mudaFoto('imageG/especificacoes.png')" onmouseout="mudaFoto('imageG/especificacoes.png')"><a href="specs.html">Especificações</a></li>
+		<li onmouseover="mudaFoto('imageG/fotos.png')" onmouseout="mudaFoto('imageG/especificacoes.png')"><a href="fotos.html">Fotos</a></li>
+		<li onmouseover="mudaFoto('imageG/multimidia.png')" onmouseout="mudaFoto('imageG/especificacoes.png')"><a href="multimidia.html">Multimídia</a></li>
+	</ul>
+</nav>	
+	</header> 
+<section id="corpo-full">
+<article id="noticia-principal">
+<header id="cabecalho-artigo">
+<hgroup>
+<h3>Glass > Especificações</h3>
+<h1>Raio-X no Google Glass</h1>
+<h3 class="direita">Atualizado em 01/Maio/2013</h3>
+</hgroup>
+</header>
+<p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
+<section id="conteudo">
+	<img src="imageG/glass-esquema-marcado.jpg" usemap="#meumapa"/>
+	<map name="meumapa">
+		<area shape="rect" coords="179,202,270,260" href="google-glass.html#tela" target="janela"/>
+		<area shape="circle" coords="158,243,12" href="google-glass.html#camera" target="janela"/>
+		<area shape="circle" coords="76,52,12" href="google-glass.html#gadgets" target="janela">
+		<area shape="poly" coords="28,143,83,216,84,249,27,169" href="google-glass.html#sensores" target="janela">
+	</map>
+	<div id="contem">
+	<iframe src="google-glass.html" name="janela" id="frame-spec"></iframe>
+	</div>
+</section>
+</article>
+</section>
+<footer id="rodape">
+<p><i>&copy Copyright 2013 - by Vinícius Barbosa</i></p>
+<p><a href="http://linkedin.com/in/vinícius-de-araújo-barbosa-15870a1a4"> <span style="color: grey; font-family: 'Times New Roman', Times, serif;">LinkedIn</span></a> <b>|</b> <a href="mailto:vini.barbosa.a@outlook.com"><span style="color: grey; font-family: 'Times New Roman', Times, serif;">Email</span></a></p>
+</footer>
+</div>
+</body>
+</html>
