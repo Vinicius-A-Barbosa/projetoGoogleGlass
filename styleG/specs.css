@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+section#conteudo {
+	width: 1000px;
+	margin: auto;
+	padding-right: 100px;
+	margin-bottom: 20px;
+}
+section#conteudo img {
+	width: 50%;
+	height: 50%;
+}
+div#contem{
+	position: absolute;
+	width: 370px;
+	height: 290px;
+	overflow: hidden;
+	top: 390px;
+	left: 720px;
+}
+iframe#frame-spec {
+	width: 380px;
+	height: 300px;
+	border: none;
+	padding: 10px;
+}
+iframe#frame-spec::webkit-scrollbar {
+	display: none;
+}
